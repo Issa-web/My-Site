@@ -6,8 +6,14 @@ body {
 }
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
 }
 
+a:hover {
+    color: #EAF6F6;
+}
 h1 {
     color: #66BFBF;
     font-size: 562.5%;
@@ -49,6 +55,12 @@ hr {
     position: absolute;
     left: 250px;
     bottom: 300px;
+}
+
+.copy-right {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 .middle-container{
     margin: 100px 0;
